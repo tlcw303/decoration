@@ -18,10 +18,11 @@ class Home extends Component {
                         3.一键预约
                     </div>
                     <div className={appCss.news}>
-                        装饰攻略(装修新闻)
+                        <div className={appCss.newsleft}>装饰攻略</div>
+                        <div></div>
                     </div>
                     <div className={appCss.nav}>
-                        <div>设计团队</div>
+                        <div>裝修攻略</div>
                         <div>施工团队</div>
                         <div>材料展示</div>
                         <div>工地直播</div>

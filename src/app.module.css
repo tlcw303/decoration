@@ -61,7 +61,11 @@
   height: 8vh;
   background-color: slateblue;
 }
-
+.newsleft{
+  width: 8vh;
+  height: 8vh;
+  background-color: yellow;
+}
 /* -------------------------------------------------- */
 .nav {
   width: 100%;
