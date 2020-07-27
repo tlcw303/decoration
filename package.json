@@ -39,7 +39,8 @@
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "server": "json-server ./data2/db.json --port=3001"
   },
   "eslintConfig": {
     "extends": "react-app"
