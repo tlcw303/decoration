@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+.banner_s {
+  width: 100%;
+}
+.banner {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 50px;
+  border: 1px solid rgb(26, 228, 167);
+  border-radius: 5px;
+  overflow: hidden;
+}
+.am-badge .am-badge-corner {
+  font-size: 12px;
+}
+.banner p {
+  text-align: center;
+  width: 100%;
+  color: rgb(26, 228, 167);
+}
+.banner p:nth-of-type(1) {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.banner p:nth-of-type(2) {
+  font-size: 20px;
+  letter-spacing: 8px;
+}
+.banner p:nth-of-type(3) {
+  font-size: 12px;
+  color: white;
+  background: rgb(26, 228, 167);
+  width: 70%;
+  margin: 8px auto;
+  line-height: 16px;
+  border-radius: 8px;
+}
+.calculation_body {
+  width: 100%;
+}
+
+.calculation {
+  width: 95%;
+  margin: 10px auto;
+  border: 1px solid black;
+  box-shadow: 5px 5px 1px gray;
+}
+.calculation .calculationTitle {
+  display: flex;
+  justify-content: center;
+}
+.calculation .calculationTitle p {
+  width: 35%;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 10px;
+  line-height: 14px;
+}
+.calculation .calculationTitle div {
+  border-top: 1px solid rgb(192, 195, 199);
+  width: 25%;
+  margin-top: 17px;
+}
+.calculator {
+  width: 95%;
+  background: rgb(207, 207, 207);
+  padding: 5px;
+  margin: 5px auto;
+  margin-bottom: 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.calculator div {
+  border: 2px solid black;
+  height: 50px;
+}
+.priceCalculation {
+  width: 95%;
+  border: 1px solid rgb(175, 173, 173);
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.priceCalculation > div {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+.priceCalculation > div span.cost {
+  font-weight: 600;
+}
+.calculation input {
+  width: 95%;
+  height: 50px;
+  background: rgb(207, 207, 207);
+  border: none;
+  margin-left: 2.5%;
+  margin-top: 10px;
+  border-radius: 5px;
+  text-indent: 15px;
+}
+.calculation button {
+  width: 95%;
+  margin-left: 2.5%;
+  margin-top: 10px;
+  border-radius: 5px;
+  background: rgb(26, 228, 167);
+  height: 50px;
+  outline: none;
+  border: 1px solid transparent;
+  color: white;
+}
+.tip {
+  margin-left: 5%;
+  line-height: 40px;
+}
+.price img {
+  width: 100%;
+  display: block;
+}
+
+div.am-list,
+div.picker-list {
+  width: 95%;
+}
+.calculationResult {
+  width: 90%;
+  margin: 0 auto;
+  display: none;
+  margin-top: 10px;
+}
+.calculationResult > div {
+  border: 1px solid rgb(207, 207, 207);
+}
+.calculationResult > div > div:nth-of-type(1) {
+  background: rgb(26, 228, 167);
+  padding: 10px;
+  transform: scale(1.005);
+}
+
+.calculationResult > div > div:nth-of-type(1) p:nth-of-type(1) {
+  line-height: 40px;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+}
+.calculationResult > div > div:nth-of-type(1) p:nth-of-type(2) {
+  line-height: 40px;
+  font-size: 18px;
+
+  text-align: center;
+  color: orangered;
+}
+.calculationResult > div > div:nth-of-type(2) {
+  padding: 10px;
+}
+.calculationResult > div > div:nth-of-type(2) p {
+  text-align: center;
+  line-height: 40px;
+  font-weight: 600;
+}
+.calculationResult > p {
+  line-height: 25px;
+}
+.calculationResult > p:nth-of-type(1) {
+  margin-top: 10px;
+  color: rgb(26, 228, 167);
+}
+
+.budget {
+  text-align: right;
+  position: relative;
+}
+.budget span:first-of-type {
+  font-size: 50px;
+  line-height: 50px;
+  position: absolute;
+  bottom: 2px;
+  right: 20px;
+}
+.budget span:last-of-type {
+  font-size: 16px;
+  line-height: 16px;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}

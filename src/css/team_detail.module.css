@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.live{
+    background-color: #FAFAFA;
+    display: flex;
+	flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    width: 100%;
+    /* position: relative; */
+    padding-top: 45px;
+}
+.sss{
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 3;
+    width:100%
+}
+.live p{
+    margin-bottom: 0;
+}
+.main{
+    overflow: auto;
+    flex: 1;
+    width:100%
+}
+/* 背景圖部分 */
+.bg{
+    height:30vh;
+    color:#fff;
+    background: transparent;
+    position: relative;
+}
+.bg>div{
+    padding:5vh 0 0 3vh;
+}
+.bg h3{
+    color:#fff;
+}
+.bg p{
+    padding-bottom: 2vh;
+    margin-bottom: 0;
+}
+.ccc{
+    width:100%;
+    position: absolute;
+    top:90px;
+    left:-50px;
+}
+:global .am-wingblank.am-wingblank-lg{
+    margin-top: 6px;
+}
+:global #bg .am-wingblank{
+    padding: 0;
+}
+:global #bg .am-steps-item{
+    width:70px;
+}
+:global #bg .am-steps-small .am-steps-item-title {
+    color:#fff;
+    font-weight: normal;
+}
+:global #bg .am-steps-label-vertical .am-steps-item-content{
+    width: 32px;
+    margin:0 0 0 27px;
+}
+/* 中間部分 */
+.content{
+    position: relative;
+}
+.content>div{
+    position: relative;
+}
+/* 直播 */
+.stage_site{
+    margin: 3vh 0 0 1vh;
+    overflow: hidden;
+}
+.stage_site>div{
+    position: relative;
+    float: left;
+    height:auto;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+.stage_site>div>p{
+    font-size: 18px;
+    color: #0C0C0C;
+    height:20px;
+    line-height:20px;
+    float:left;
+}
+.stage_site>div>p>span{
+    font-size: 16px;
+    color: #c1c1c1;
+    margin-left: 5px;
+}
+.stage_site>div>b{
+    display: inline-block;
+    height: 8vh;
+    width: 1px;
+    background-color: #c1c1c1;
+    position: absolute;
+    top: 28px;
+    left: 7px;
+}
+.progress_pic{
+    float: left;
+}
+.progress_pic img{
+    float: left;
+    width: 29vw;
+    height: 29vw;
+    margin: 8px 0 0 8px;
+}
+.progress_pic img:nth-of-type(3n+1){
+    margin-left: 18px;
+}
+.stage_site>div .amicon{
+    color: #108EE9;
+    width: 16px;
+    height: 16px;
+    margin-right: 1vw;
+    vertical-align: middle;
+}
+.stage_site>div>p:last-child{
+    margin-left: 18px;
+    line-height: 26px;
+    height: 26px;
+}
+/* 團隊 */
+.team li{
+    height: 12vh;
+    text-align: left;
+    width: 100vw;
+    border-bottom: 1px solid #E2E2E2;
+}
+.team img{
+    float: left;
+    margin: 2vh 2vh 0 2vh;
+    height: 8vh;
+    border-radius: 50%;
+}
+.team h3{
+    float: left;
+    margin:2vh 0 0 0;
+    width: 78%;
+    height: 34px;
+    color: #333;
+}
+.team span{
+    width: 78%;
+    background-color: #00C68A;
+    color: #fff;
+    padding:2px 4px;
+    border-radius: 5px;
+}
+/* 底部 */
+.footer{
+    height:10vh;
+    background-color: #fff;
+    width: 100vw;
+}
+.footer input{
+    float: right;
+    margin:3vh 7vw 0 0;
+    padding: 8px 0;
+    background-image: linear-gradient(to right,#FFA839, #FFC16D);
+    width: 35vw;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+}
+.footer span{
+    display: inline-block;
+    color: #ddd;
+    font-size: 40px;
+    margin:18px 0 0 7vw;
+}

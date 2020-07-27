@@ -3,14 +3,17 @@
   padding:0;
 }
 .App nav{
-  background: yellow;
+  background: white;
   position: fixed;
   width: 100vw;
   bottom: 0;
-  height: 10vh;
-  line-height: 10vh;
+  height: 8vh;
+  /* line-height: 10vh; */
   display: flex;
   justify-content:space-around;
+  margin-top: 10vh;
+  background: white;
+  z-index: 3;
 }
 .App nav a{
   text-decoration: none;
@@ -18,4 +21,8 @@
 }
 .App nav .active{
   color: #37D990;
+}
+.App nav{
+  text-align: center;
+  padding-top: 5px;
 }

@@ -1,55 +1,58 @@
 import React, { Component, Fragment } from 'react';
+import axios from "axios"
 import appCss from '../app.module.css';
+import { Link, withRouter } from "react-router-dom"
+import Swiper from "swiper"
+import "swiper/css/swiper.css"
+import "../iconfont/iconfont.css"
+import Header from "../components/home/Header"
+import Banner from "../components/home/Banner"
+import News from "../components/home/News"
+import Nav from "../components/home/Nav"
+import View360 from "../components/home/View360"
+import CaseShow from "../components/home/CaseShow"
+import Loop1 from "../components/home/Loop1"
+import Loop2 from "../components/home/Loop2"
 
 class Home extends Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            list: [],
+        }
+    }
+
+    componentDidMount() {
+
+    }
+
     render() {
+        let { list } = this.state
+        // console.log(list)
+        // console.log(list.length)
         return (
-            <Fragment>
-                <div className={appCss.header}>
-                    <div className={appCss.logo}>LOGO</div>
-                    <div className={appCss.search}>麥芒飾裝修系統</div>
-                    <div className={appCss.me}>一鍵預約</div>
-                </div>
+            <div className={appCss.main}>
+                <Header></Header>
                 <div className={appCss.content}>
-                    <div className={appCss.banner}>
-                        swiper
-                        1.活动页面
-                        2.案例展示
-                        3.一键预约
-                    </div>
-                    <div className={appCss.news}>
-                        <div className={appCss.newsleft}>装饰攻略</div>
-                        <div></div>
-                    </div>
-                    <div className={appCss.nav}>
-                        <div>裝修攻略</div>
-                        <div>施工团队</div>
-                        <div>材料展示</div>
-                        <div>工地直播</div>
-                        <div>公司介绍</div>
-                        <div>最新活动</div>
-                        <div>装修报价</div>
-                        <div>一键预约</div>
-                    </div>
-                    <div className={appCss.caseShow}>
-                        案例展示
-                    </div>
-                    <div className={appCss.caseShow}>
+                    <Banner></Banner>
+                    <News></News>
+                    <Nav></Nav>
+                    <View360></View360>
+                    <CaseShow></CaseShow>
+                    <Loop1></Loop1>
+                    <Loop2></Loop2>
+                    <div className={appCss.caseView}>
                         工地直播
                     </div>
-                    <div className={appCss.view360}>
-                        360°全景展示
-                    </div>
-                    <div className={appCss.designTeam}>
-                        设计团队
-                    </div>
-                    <div className={appCss.construtorTeam}>
-                        施工团队
-                    </div>
+                    <Link to="/designteam">
+                        <div className={appCss.designTeam}>
+                            工地直播
+                        </div>
+                    </Link>
                 </div>
-            </Fragment>
+            </div>
         );
     }
 }
 
-export default Home;
+export default withRouter(Home);

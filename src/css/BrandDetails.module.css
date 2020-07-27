@@ -1,0 +1,29 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+.header_bottom {
+  margin-top: 45px;
+}
+.body {
+  width: 95%;
+  margin: 0 auto;
+}
+.body img {
+  width: 100%;
+}
+.commodity_list {
+  width: 95%;
+}
+.com {
+  width: 45%;
+  margin-left: 5%;
+
+  float: left;
+}
+.com > img {
+  width: 100%;
+}

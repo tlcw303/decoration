@@ -1,0 +1,1057 @@
+{
+  "designerTable": [
+    {
+      "id": 0,
+      "head_picture": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3215956975,251999316&fm=26&gp=0.jpg",
+      "designer_name": "吴慧娟",
+      "designer_position": "首席设计师",
+      "working_experience": "30",
+      "case_work": "4",
+      "good_style": [
+        "北欧风格",
+        "田园风格",
+        "中式风格"
+      ]
+    },
+    {
+      "id": 1,
+      "head_picture": "https://dss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3256100974,305075936&fm=26&gp=0.jpg",
+      "designer_name": "李雪",
+      "designer_position": "首席设计师",
+      "working_experience": "4",
+      "case_work": "4",
+      "good_style": [
+        "地中海风格",
+        "中式风格"
+      ]
+    },
+    {
+      "id": 2,
+      "head_picture": "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1603037357,2263646824&fm=11&gp=0.jpg",
+      "designer_name": "刘璐",
+      "designer_position": "首席设计师",
+      "working_experience": "15",
+      "case_work": "1",
+      "good_style": [
+        "北欧风格"
+      ]
+    },
+    {
+      "id": 3,
+      "head_picture": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1791011043,2222909746&fm=26&gp=0.jpg",
+      "designer_name": "路飞",
+      "designer_position": "首席设计师",
+      "working_experience": "15",
+      "case_work": "1",
+      "good_style": [
+        "地中海风格"
+      ]
+    }
+  ],
+  "designer": [
+    {
+      "id": 0,
+      "head_picture": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3215956975,251999316&fm=26&gp=0.jpg",
+      "designer_name": "吴慧娟",
+      "designer_position": "首席设计师",
+      "working_experience": "30",
+      "case_work": "4",
+      "good_style": [
+        "北欧风格",
+        "田园风格",
+        "中式风格"
+      ],
+      "collection_number": "10",
+      "written_permission_number": "33",
+      "cost_of_design": "500.00",
+      "individual_Introduction": "这个人很懒，她什么也没有写"
+    },
+    {
+      "id": 1,
+      "head_picture": "https://dss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3256100974,305075936&fm=26&gp=0.jpg",
+      "designer_name": "李雪",
+      "designer_position": "首席设计师",
+      "working_experience": "4",
+      "case_work": "4",
+      "good_style": [
+        "地中海风格",
+        "中式风格"
+      ],
+      "collection_number": "10",
+      "written_permission_number": "33",
+      "cost_of_design": "500.00",
+      "individual_Introduction": "这个人很懒，她什么也没有写"
+    },
+    {
+      "id": 2,
+      "head_picture": "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1603037357,2263646824&fm=11&gp=0.jpg",
+      "designer_name": "刘璐",
+      "designer_position": "首席设计师",
+      "working_experience": "15",
+      "case_work": "1",
+      "good_style": [
+        "北欧风格"
+      ],
+      "collection_number": "10",
+      "written_permission_number": "33",
+      "cost_of_design": "500.00",
+      "individual_Introduction": "这个人很懒，她什么也没有写"
+    },
+    {
+      "id": 3,
+      "head_picture": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1791011043,2222909746&fm=26&gp=0.jpg",
+      "designer_name": "路飞",
+      "designer_position": "首席设计师",
+      "working_experience": "15",
+      "case_work": "1",
+      "good_style": [
+        "地中海风格"
+      ],
+      "collection_number": "10",
+      "written_permission_number": "33",
+      "cost_of_design": "500.00",
+      "individual_Introduction": "这个人很懒，她什么也没有写"
+    }
+  ],
+  "case": [
+    {
+      "case_id": 0,
+      "case_title": "我的心愿是住在离海最近的地方，面朝大海，春暖花开",
+      "case_designerName": "吴慧娟",
+      "case_buildingName": "徐永辉",
+      "case_cost": "10",
+      "case_style": "地中海风格",
+      "case_hometype": "三室两厅，现代简约",
+      "case_area": "90-120平米",
+      "case_createtime": "2016-10-10",
+      "case_detail": [
+        "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2203400306,1045988118&fm=26&gp=0.jpg",
+        "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3180900938,1452476128&fm=26&gp=0.jpg"
+      ],
+      "case_checkNum": [
+        {
+          "name": "aaa"
+        },
+        {
+          "name": "bbb"
+        },
+        {
+          "name": "ccc"
+        }
+      ]
+    },
+    {
+      "case_id": 1,
+      "case_title": "每天都有好心情",
+      "case_designerName": "李雪",
+      "case_buildingName": "徐永辉",
+      "case_cost": "10",
+      "case_style": "北欧风格",
+      "case_hometype": "高贵大气，尽享奢华",
+      "case_area": "90-120平米",
+      "case_createtime": "2016-10-10",
+      "case_detail": [
+        "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3811135742,2301137260&fm=26&gp=0.jpg",
+        "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=112071122,1492121125&fm=26&gp=0.jpg"
+      ],
+      "case_checkNum": [
+        {
+          "name": "aaa"
+        },
+        {
+          "name": "bbb"
+        },
+        {
+          "name": "ccc"
+        }
+      ]
+    },
+    {
+      "case_id": 2,
+      "case_title": "赶紧买一套",
+      "case_designerName": "刘璐",
+      "case_buildingName": "徐永辉",
+      "case_cost": "10",
+      "case_style": "中式风格",
+      "case_hometype": "五室一厅，豪华极致",
+      "case_area": "90-120平米",
+      "case_createtime": "2016-10-10",
+      "case_detail": [
+        "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2940569270,4033335320&fm=26&gp=0.jpg",
+        "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3761859252,1842107092&fm=26&gp=0.jpg"
+      ],
+      "case_checkNum": [
+        {
+          "name": "aaa"
+        },
+        {
+          "name": "bbb"
+        },
+        {
+          "name": "ccc"
+        }
+      ]
+    },
+    {
+      "case_id": 3,
+      "case_title": "我是要成为海贼王的男人",
+      "case_designerName": "路飞",
+      "case_buildingName": "徐永辉",
+      "case_cost": "10",
+      "case_style": "海贼王风格",
+      "case_hometype": "一艘大船，霸气就完事了",
+      "case_area": "90-120平米",
+      "case_createtime": "2016-10-10",
+      "case_detail": [
+        "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3117716371,4271100546&fm=26&gp=0.jpg",
+        "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3948665872,14455005&fm=26&gp=0.jpg"
+      ],
+      "case_checkNum": [
+        {
+          "name": "aaa"
+        },
+        {
+          "name": "bbb"
+        },
+        {
+          "name": "ccc"
+        }
+      ]
+    }
+  ],
+  "abbr": [
+    {
+      "abbr_id": 0,
+      "title": "鲁班装饰",
+      "abbr_pic": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1791011043,2222909746&fm=26&gp=0.jpg"
+    },
+    {
+      "abbr_id": 1,
+      "title": "狄仁杰装饰",
+      "abbr_pic": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1791011043,2222909746&fm=26&gp=0.jpg"
+    },
+    {
+      "abbr_id": 2,
+      "title": "后裔装饰",
+      "abbr_pic": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1791011043,2222909746&fm=26&gp=0.jpg"
+    },
+    {
+      "abbr_id": 3,
+      "title": "伽罗装饰",
+      "abbr_pic": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1791011043,2222909746&fm=26&gp=0.jpg"
+    },
+    {
+      "abbr_id": 4,
+      "title": "孙尚香装饰",
+      "abbr_pic": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1791011043,2222909746&fm=26&gp=0.jpg"
+    },
+    {
+      "abbr_id": 5,
+      "title": "百里守约装饰",
+      "abbr_pic": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1791011043,2222909746&fm=26&gp=0.jpg"
+    }
+  ],
+  "constructiontable": {
+    "community_area": [
+      {
+        "title": "昌江區",
+        "sub": [
+          "景城名郡",
+          "玖域壹品",
+          "古鎮天御",
+          "金域藍灣"
+        ]
+      },
+      {
+        "title": "浮梁縣",
+        "sub": [
+          "金域藍灣",
+          "世紀星城"
+        ]
+      }
+    ],
+    "case_style": [
+      "北歐",
+      "中式風格",
+      "地中海風格"
+    ],
+    "progress_plan": [
+      "新房入住",
+      "驗收完成",
+      "百日曬房",
+      "水電改造"
+    ],
+    "construction_down": [
+      {
+        "site_ID": 1,
+        "case_style": "北歐",
+        "site_area": "120m'",
+        "designer_pic": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1595407378906&di=f68981ce06c9e2dbc2fceb4c73d46a3b&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201901%2F31%2F20190131094030_dtdjw.jpg",
+        "designer_name": "丁輝人",
+        "designer_position": "主任设计师",
+        "community_name": "世紀星城",
+        "site_name": "美立方",
+        "community_addr": "綿陽市石橋鋪",
+        "progress_plan": "水電改造",
+        "progress_pic": [
+          "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2415463675,563514084&fm=15&gp=0.jpg",
+          "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=788132262,3802186195&fm=15&gp=0.jpg",
+          "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2647713444,2281397757&fm=15&gp=0.jpg"
+        ],
+        "progress_time": "2018-12-07"
+      },
+      {
+        "site_ID": 2,
+        "case_style": "中式風格",
+        "site_area": "120m'",
+        "designer_pic": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=287242355,3473888450&fm=26&gp=0.jpg",
+        "designer_name": "丁輝人",
+        "designer_position": "主任设计师",
+        "community_name": "玖域壹品",
+        "site_name": "新城別墅",
+        "community_addr": "綿陽市石橋鋪",
+        "progress_plan": "新房入住",
+        "progress_pic": [
+          "https://pic.rmb.bdstatic.com/033c091157cb6a2fa5b146a8c087d09c.png",
+          "https://t9.baidu.com/it/u=1139728808,1988228375&fm=193"
+        ],
+        "progress_time": "2018-12-07"
+      },
+      {
+        "site_ID": 3,
+        "case_style": "地中海風格",
+        "site_area": "120m'",
+        "designer_pic": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1595407378906&di=f68981ce06c9e2dbc2fceb4c73d46a3b&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201901%2F31%2F20190131094030_dtdjw.jpg",
+        "designer_name": "丁輝人",
+        "designer_position": "主任设计师",
+        "community_name": "景城名郡",
+        "site_name": "美立方",
+        "community_addr": "綿陽市石橋鋪",
+        "progress_plan": "百日曬房",
+        "progress_pic": [
+          "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2415463675,563514084&fm=15&gp=0.jpg",
+          "https://t9.baidu.com/it/u=1162985128,83147300&fm=193",
+          "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2647713444,2281397757&fm=15&gp=0.jpg"
+        ],
+        "progress_time": "2018-12-07"
+      },
+      {
+        "site_ID": 4,
+        "case_style": "北歐",
+        "site_area": "120m'",
+        "designer_pic": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=287242355,3473888450&fm=26&gp=0.jpg",
+        "designer_name": "丁輝人",
+        "designer_position": "主任设计师",
+        "community_name": "世紀星城",
+        "site_name": "美立方",
+        "community_addr": "綿陽市石橋鋪",
+        "progress_plan": "水電改造",
+        "progress_pic": [
+          "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2415463675,563514084&fm=15&gp=0.jpg",
+          "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=788132262,3802186195&fm=15&gp=0.jpg",
+          "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2419025084,2084799014&fm=26&gp=0.jpg",
+          "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2647713444,2281397757&fm=15&gp=0.jpg"
+        ],
+        "progress_time": "2018-12-07"
+      }
+    ]
+  },
+  "sitedetail": [
+    {
+      "site_ID": 1,
+      "site_name": "美立方",
+      "site_community": "世紀星城",
+      "case_style": "田園風格",
+      "site_area": "120m'",
+      "site_address": "綿陽市石橋鋪",
+      "site_pic": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=4171586054,1664177940&fm=26&gp=0.jpg",
+      "progress_plan": [
+        {
+          "site_progress": "開工大吉",
+          "progress_pic": [
+            "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2415463675,563514084&fm=15&gp=0.jpg",
+            "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=788132262,3802186195&fm=15&gp=0.jpg",
+            "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2419025084,2084799014&fm=26&gp=0.jpg",
+            "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2647713444,2281397757&fm=15&gp=0.jpg"
+          ],
+          "progress_detail": "mamamoo賽高！！！",
+          "progress_time": "2018-05-06"
+        },
+        {
+          "site_progress": "水電改造",
+          "progress_pic": [
+            "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2415463675,563514084&fm=15&gp=0.jpg",
+            "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2647713444,2281397757&fm=15&gp=0.jpg"
+          ],
+          "progress_detail": "mamamoo賽高！！！",
+          "progress_time": "2018-08-06"
+        },
+        {
+          "site_progress": "泥瓦階段",
+          "progress_pic": [
+            "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2415463675,563514084&fm=15&gp=0.jpg",
+            "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2647713444,2281397757&fm=15&gp=0.jpg"
+          ],
+          "progress_detail": "mamamoo賽高！！！",
+          "progress_time": "2018-09-12"
+        }
+      ],
+      "team": {
+        "designer": [
+          {
+            "site_designerID": 1,
+            "site_designerPic": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1595407378906&di=f68981ce06c9e2dbc2fceb4c73d46a3b&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201901%2F31%2F20190131094030_dtdjw.jpg",
+            "site_designerName": "丁輝人",
+            "site_designerPosition": "主任設計師"
+          },
+          {
+            "site_designerID": 2,
+            "site_designerPic": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=77246679,3706062536&fm=26&gp=0.jpg",
+            "site_designerName": "安慧真",
+            "site_designerPosition": "主任設計師"
+          }
+        ],
+        "building": [
+          {
+            "site_buildingID": 1,
+            "site_buildingPic": "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2272275612,1790321088&fm=11&gp=0.jpg",
+            "site_buildingName": "文星伊",
+            "site_buildingPosition": "項目經理"
+          },
+          {
+            "site_buildingID": 2,
+            "site_buildingPic": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=4067405510,3032020963&fm=26&gp=0.jpg",
+            "site_buildingName": "金容仙",
+            "site_buildingPosition": "項目經理"
+          },
+          {
+            "site_buildingID": 3,
+            "site_buildingPic": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=4067405510,3032020963&fm=26&gp=0.jpg",
+            "site_buildingName": "金容仙",
+            "site_buildingPosition": "項目經理"
+          },
+          {
+            "site_buildingID": 4,
+            "site_buildingPic": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=4067405510,3032020963&fm=26&gp=0.jpg",
+            "site_buildingName": "金容仙",
+            "site_buildingPosition": "項目經理"
+          }
+        ]
+      }
+    },
+    {
+      "site_ID": 2,
+      "site_name": "美立方",
+      "site_community": "世紀星城",
+      "case_style": "田園風格",
+      "site_area": "120m'",
+      "site_address": "綿陽市石橋鋪",
+      "site_pic": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1448894570,1738027380&fm=26&gp=0.jpg",
+      "progress_plan": [
+        {
+          "site_progress": "開工大吉",
+          "progress_pic": [
+            "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2415463675,563514084&fm=15&gp=0.jpg",
+            "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=788132262,3802186195&fm=15&gp=0.jpg",
+            "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2419025084,2084799014&fm=26&gp=0.jpg",
+            "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2647713444,2281397757&fm=15&gp=0.jpg"
+          ],
+          "progress_detail": "mamamoo賽高！！！",
+          "progress_time": "2018-05-06"
+        },
+        {
+          "site_progress": "水電改造",
+          "progress_pic": [
+            "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2415463675,563514084&fm=15&gp=0.jpg",
+            "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2647713444,2281397757&fm=15&gp=0.jpg"
+          ],
+          "progress_detail": "mamamoo賽高！！！",
+          "progress_time": "2018-08-06"
+        }
+      ],
+      "team": {
+        "designer": [
+          {
+            "site_designerID": 1,
+            "site_designerPic": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1595407378906&di=f68981ce06c9e2dbc2fceb4c73d46a3b&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201901%2F31%2F20190131094030_dtdjw.jpg",
+            "site_designerName": "丁輝人",
+            "site_designerPosition": "主任設計師"
+          },
+          {
+            "site_designerID": 2,
+            "site_designerPic": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=77246679,3706062536&fm=26&gp=0.jpg",
+            "site_designerName": "安慧真",
+            "site_designerPosition": "主任設計師"
+          }
+        ],
+        "building": [
+          {
+            "site_buildingID": 1,
+            "site_buildingPic": "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2272275612,1790321088&fm=11&gp=0.jpg",
+            "site_buildingName": "文星伊",
+            "site_buildingPosition": "項目經理"
+          },
+          {
+            "site_buildingID": 2,
+            "site_buildingPic": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=4067405510,3032020963&fm=26&gp=0.jpg",
+            "site_buildingName": "金容仙",
+            "site_buildingPosition": "項目經理"
+          }
+        ]
+      }
+    },
+    {
+      "site_ID": 3,
+      "site_name": "美立方",
+      "site_community": "世紀星城",
+      "case_style": "田園風格",
+      "site_area": "120m'",
+      "site_address": "綿陽市石橋鋪",
+      "site_pic": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3372451492,3627295916&fm=26&gp=0.jpg",
+      "progress_plan": [
+        {
+          "site_progress": "開工大吉",
+          "progress_pic": [
+            "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2415463675,563514084&fm=15&gp=0.jpg",
+            "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=788132262,3802186195&fm=15&gp=0.jpg",
+            "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2419025084,2084799014&fm=26&gp=0.jpg",
+            "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2647713444,2281397757&fm=15&gp=0.jpg"
+          ],
+          "progress_detail": "mamamoo賽高！！！",
+          "progress_time": "2018-05-06"
+        },
+        {
+          "site_progress": "水電改造",
+          "progress_pic": [
+            "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2415463675,563514084&fm=15&gp=0.jpg",
+            "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2647713444,2281397757&fm=15&gp=0.jpg"
+          ],
+          "progress_detail": "mamamoo賽高！！！",
+          "progress_time": "2018-08-06"
+        },
+        {
+          "site_progress": "泥瓦階段",
+          "progress_pic": [
+            "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2415463675,563514084&fm=15&gp=0.jpg",
+            "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2647713444,2281397757&fm=15&gp=0.jpg"
+          ],
+          "progress_detail": "mamamoo賽高！！！",
+          "progress_time": "2018-09-12"
+        }
+      ],
+      "team": {
+        "designer": [
+          {
+            "site_designerID": 1,
+            "site_designerPic": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1595407378906&di=f68981ce06c9e2dbc2fceb4c73d46a3b&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201901%2F31%2F20190131094030_dtdjw.jpg",
+            "site_designerName": "丁輝人",
+            "site_designerPosition": "主任設計師"
+          },
+          {
+            "site_designerID": 2,
+            "site_designerPic": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=77246679,3706062536&fm=26&gp=0.jpg",
+            "site_designerName": "安慧真",
+            "site_designerPosition": "主任設計師"
+          }
+        ],
+        "building": [
+          {
+            "site_buildingID": 1,
+            "site_buildingPic": "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2272275612,1790321088&fm=11&gp=0.jpg",
+            "site_buildingName": "文星伊",
+            "site_buildingPosition": "項目經理"
+          },
+          {
+            "site_buildingID": 2,
+            "site_buildingPic": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=4067405510,3032020963&fm=26&gp=0.jpg",
+            "site_buildingName": "金容仙",
+            "site_buildingPosition": "項目經理"
+          },
+          {
+            "site_buildingID": 3,
+            "site_buildingPic": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=4067405510,3032020963&fm=26&gp=0.jpg",
+            "site_buildingName": "金容仙",
+            "site_buildingPosition": "項目經理"
+          },
+          {
+            "site_buildingID": 4,
+            "site_buildingPic": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=4067405510,3032020963&fm=26&gp=0.jpg",
+            "site_buildingName": "金容仙",
+            "site_buildingPosition": "項目經理"
+          }
+        ]
+      }
+    },
+    {
+      "site_ID": 4,
+      "site_name": "美立方",
+      "site_community": "世紀星城",
+      "case_style": "田園風格",
+      "site_area": "120m'",
+      "site_address": "綿陽市石橋鋪",
+      "site_pic": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2060523934,1153602786&fm=26&gp=0.jpg",
+      "progress_plan": [
+        {
+          "site_progress": "開工大吉",
+          "progress_pic": [
+            "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2415463675,563514084&fm=15&gp=0.jpg",
+            "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=788132262,3802186195&fm=15&gp=0.jpg",
+            "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2419025084,2084799014&fm=26&gp=0.jpg",
+            "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2647713444,2281397757&fm=15&gp=0.jpg"
+          ],
+          "progress_detail": "mamamoo賽高！！！",
+          "progress_time": "2018-05-06"
+        },
+        {
+          "site_progress": "水電改造",
+          "progress_pic": [
+            "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2415463675,563514084&fm=15&gp=0.jpg",
+            "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2647713444,2281397757&fm=15&gp=0.jpg"
+          ],
+          "progress_detail": "mamamoo賽高！！！",
+          "progress_time": "2018-08-06"
+        },
+        {
+          "site_progress": "泥瓦階段",
+          "progress_pic": [
+            "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2415463675,563514084&fm=15&gp=0.jpg",
+            "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2647713444,2281397757&fm=15&gp=0.jpg"
+          ],
+          "progress_detail": "mamamoo賽高！！！",
+          "progress_time": "2018-09-12"
+        }
+      ],
+      "team": {
+        "designer": [
+          {
+            "site_designerID": 1,
+            "site_designerPic": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1595407378906&di=f68981ce06c9e2dbc2fceb4c73d46a3b&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201901%2F31%2F20190131094030_dtdjw.jpg",
+            "site_designerName": "丁輝人",
+            "site_designerPosition": "主任設計師"
+          },
+          {
+            "site_designerID": 2,
+            "site_designerPic": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=77246679,3706062536&fm=26&gp=0.jpg",
+            "site_designerName": "安慧真",
+            "site_designerPosition": "主任設計師"
+          }
+        ],
+        "building": [
+          {
+            "site_buildingID": 1,
+            "site_buildingPic": "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2272275612,1790321088&fm=11&gp=0.jpg",
+            "site_buildingName": "文星伊",
+            "site_buildingPosition": "項目經理"
+          },
+          {
+            "site_buildingID": 2,
+            "site_buildingPic": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=4067405510,3032020963&fm=26&gp=0.jpg",
+            "site_buildingName": "金容仙",
+            "site_buildingPosition": "項目經理"
+          },
+          {
+            "site_buildingID": 3,
+            "site_buildingPic": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=4067405510,3032020963&fm=26&gp=0.jpg",
+            "site_buildingName": "金容仙",
+            "site_buildingPosition": "項目經理"
+          },
+          {
+            "site_buildingID": 4,
+            "site_buildingPic": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=4067405510,3032020963&fm=26&gp=0.jpg",
+            "site_buildingName": "金容仙",
+            "site_buildingPosition": "項目經理"
+          }
+        ]
+      }
+    }
+  ],
+  "activities": [
+    {
+      "activity_ID": 1,
+      "activity_pic": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1594910418792&di=773e038d427a7b63ba29ebb91aa3ef24&imgtype=0&src=http%3A%2F%2Fwww.ijuzhong.com%2Fzhuangxiu%2Fuploads%2Fallimg%2F20200102%2F1577934461886_3.jpg",
+      "activity_price": 799,
+      "activity_detail": "   咖啡色属于中性暖色色调，它优雅、朴素，庄重而不失雅致。它摈弃了黄金色调的俗气，又或是象牙白的单调和平庸。咖啡色本身是一种比较含蓄的颜色，但它会使餐厅沉闷而忧郁，影响进餐质量；还不宜用在儿童房间内，暗沉的颜色会使孩子性格忧郁。还要切记，咖啡色不适宜搭配黑色。为了避免沉闷，可以用白色、灰色或米色等作为填补色，使咖啡色发挥出属于它的光彩。",
+      "key": "1"
+    },
+    {
+      "activity_ID": 2,
+      "activity_pic": "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1074467591,141740665&fm=26&gp=0.jpg",
+      "activity_price": 899,
+      "activity_detail": "家庭装修是把生活的各种情形“物化”到房间之中，一般房间的结构设计早已完成，不能做大的调整了，所以剩下可以动的就是装修装点(大的装修概念包括房间设计、装修、家具布置、富有情趣的小装点)。因为生活是自己的，所以自己必须亲自介入到装修过程中，不仅在装修设计施工期间，还包括住进去之后长期的不断改进。装修是件浩大而琐碎的工程，无论是大到地板、家具的定制还是几颗螺丝钉的购买，办理开工手续；小到组织水电、木工等多个工种的协调工作，都需要业主自己用智慧去整合，是一件既渴望又辛苦的事情。时下最流行的是重装饰、轻装修的家装理念，最大的特点是省钱而且装修时间短、环保，不少业主也会选择一些DIY装饰，装饰出属于自己的ID格调。",
+      "key": "2"
+    },
+    {
+      "activity_ID": 3,
+      "activity_pic": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2213039430,1381137133&fm=26&gp=0.jpg",
+      "activity_price": 999,
+      "activity_detail": "蓝色，是一种容易令人产生遐想的色彩。传统的蓝色常常成为现代装饰设计中热带风情的体现。蓝色还具有调节神经、镇静安神的作用。蓝色清新淡雅，与各种水果相配也很养眼，但不宜用在餐厅或是厨房，蓝色的餐桌或餐垫上的食物，总是不如暖色环境看着有食欲；同时不要在餐厅内装白炽灯或蓝色的情调灯，科学实验证明，蓝色灯光会让食物看起来不诱人。但作为卫浴间的装饰却能强化神秘感与隐私感。",
+      "key": "3"
+    },
+    {
+      "activity_ID": 4,
+      "activity_pic": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3989091906,1075748901&fm=26&gp=0.jpg",
+      "activity_price": 666,
+      "activity_detail": "金色熠熠生辉，显现了大胆和张扬的个性，在简洁的白色衬映下，视觉会很干净。但金色是最容易反射光线的颜色之一，金光闪闪的环境对人的视线伤害最大，容易使人神经高度紧张，不易放松。建议避免大面积使用单一的金色装饰房间，可以作为壁纸或软帘上的装饰色；在卫生间的墙面上，可以使用金色的马赛克搭配清冷的白色或不锈钢。为了让居室的环境更有亲和力，不妨在角落里摆放些绿色的小盆栽，使房间里充满情趣。",
+      "key": "4"
+    }
+  ],
+  "company": [
+    {
+      "company_ID": 1,
+      "company_pic": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1594911964912&di=f4b26ee8f647ffa3da9430f6387c40d6&imgtype=0&src=http%3A%2F%2Fimg.mp.sohu.com%2Fupload%2F20170810%2Fd775d7ff82824504849995484db67e41_th.png",
+      "company_mark": "公司简介",
+      "company_introduction": "XXXX聚焦党政、军队、能源、金融、电信、交通、文博等多个领域，紧密结合各行业特点，深挖客户应用，依托强大的研发实力，融合世界前沿的技术理念，快速响应客户的变化需求，为行业客户提供先进、可靠、安全、高质量、易扩展的产品和解决方案。等为代表的智能化项目，以国际机场、罗湖口岸和港桥等为代表的安全防控项目，以南京和连云港等为代表的平安城市项目。承建项目以优质的质量和服务，赢得了广大客户高度赞誉。"
+    },
+    {
+      "company_ID": 2,
+      "company_pic": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1594911992412&di=a207fab8155df814b7d8259f3dd50b61&imgtype=0&src=http%3A%2F%2Fimg.jdzj.com%2FUserDocument%2F2015c%2Fshaydzkj%2FPicture%2F201611211363.jpg",
+      "company_mark": "企业宗旨",
+      "company_introduction": "宁静的海水、舒畅的海风、休闲的海滩是生活在现代领梦想中的度假天堂。经过色彩、材质、配饰上的精心搭配,卧室里的每一件饰品都带着自己独特的气质，还原海岛度假风景，以元素的丰富装饰,制造出如置身海边的空间氛围。如海风轻拂耳际,舒爽宜人,却可以足不出户,在清凉的卧房里感受到空气中浓浓的海味。"
+    },
+    {
+      "company_ID": 3,
+      "company_pic": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1594912063246&di=e168a046bdb243a2589e874a59cb2cf9&imgtype=0&src=http%3A%2F%2Fimg105.job1001.com%2Fupload%2Falbum%2F2016-05-27%2F1464309724-1ZABG5A_960_600.jpg",
+      "company_mark": "公司优势",
+      "company_introduction": "以海洋为主题的床品以及飘逸清透的窗帘等这些简约柔和的布艺,可以搭配出纯净明媚的卧室表情。尤其是床品画面的选择,占据卧室视觉的焦点。设计构思来源于海洋主题总是能带来直观的联想，若能加以一些海星、贝壳类等轻盈自然的海洋生物饰品装点家居,海洋主题将更为凸显。"
+    },
+    {
+      "company_ID": 4,
+      "company_pic": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1595438957503&di=55540547fef9028748e11be75ba39e71&imgtype=0&src=http%3A%2F%2Fimg2017.cn5135.com%2Fuploads%2Fpic%2F2017%2F5%2F14%2F627430_2017514192521184.jpg",
+      "company_mark": "公司新闻",
+      "company_introduction": "以元素的丰富装饰,制造出如置身海边的空间氛围。如海风轻拂耳际,舒爽宜人,却可以足不出户,在清凉的卧房里感受到空气中浓浓的海味。设计构思来源于海洋主题总是能带来直观的联想，若能加以一些海星、贝壳类等轻盈自然的海洋生物饰品装点家居,海洋主题将更为凸显。"
+    }
+  ],
+  "companynews": [
+    {
+      "companynews_ID": 1,
+      "companynews_pic": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1594911964912&di=f4b26ee8f647ffa3da9430f6387c40d6&imgtype=0&src=http%3A%2F%2Fimg.mp.sohu.com%2Fupload%2F20170810%2Fd775d7ff82824504849995484db67e41_th.png",
+      "company_title": "别墅卧室应该怎么去装修",
+      "company_titlePic": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3989091906,1075748901&fm=26&gp=0.jpg",
+      "company_article": "控项目，以南京和连云港等为代表的平安城市项目。承建项目以，赢得了广大客户高度赞誉,控项目，以南京和连云港等为代表的平安城市项目。承建项目以，赢得了广大客户高度赞誉,控项目，以南京和连云港等为代表的平安城市项目。承建项目以，赢得了广大客户高度赞誉,控项目，以南京和连云港等为代表的平安城市项目。承建项目以，赢得了广大客户高度赞誉,控项目，以南京和连云港等为代表的平安城市项目。承建项目以，赢得了广大客户高度赞誉。",
+      "company_createtime": "2000-01-18"
+    },
+    {
+      "companynews_ID": 2,
+      "companynews_pic": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1594911964912&di=f4b26ee8f647ffa3da9430f6387c40d6&imgtype=0&src=http%3A%2F%2Fimg.mp.sohu.com%2Fupload%2F20170810%2Fd775d7ff82824504849995484db67e41_th.png",
+      "company_title": "瓷砖如何不空鼓？",
+      "company_titlePic": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3989091906,1075748901&fm=26&gp=0.jpg",
+      "company_article": "为行业客户提供先进、可靠、安全、高质量、易扩展的产品和解决方案,为行业客户提供先进、可靠、安全、高质量、易扩展的产品和解决方案,为行业客户提供先进、可靠、安全、高质量、易扩展的产品和解决方案,为行业客户提供先进、可靠、安全、高质量、易扩展的产品和解决方案,为行业客户提供先进、可靠、安全、高质量、易扩展的产品和解决方案,为行业客户提供先进、可靠、安全、高质量、易扩展的产品和解决方案,为行业客户提供先进、可靠、安全、高质量、易扩展的产品和解决方案,为行业客户提供先进、可靠、安全、高质量、易扩展的产品和解决方案。",
+      "company_createtime": "2000-01-18"
+    },
+    {
+      "companynews_ID": 3,
+      "companynews_pic": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1594911964912&di=f4b26ee8f647ffa3da9430f6387c40d6&imgtype=0&src=http%3A%2F%2Fimg.mp.sohu.com%2Fupload%2F20170810%2Fd775d7ff82824504849995484db67e41_th.png",
+      "company_title": "房子太小不够住？教你“小家变大家,房子太小不够住？教你“小家变大家,房子太小不够住？教你“小家变大家”",
+      "company_titlePic": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3989091906,1075748901&fm=26&gp=0.jpg",
+      "company_article": "等为代表的智能化项目，以国际机场、罗湖口岸和港桥等为代表的安全防控项目,等为代表的智能化项目，以国际机场、罗湖口岸和港桥等为代表的安全防控项目等为代表的智能化项目，以国际机场、罗湖口岸和港桥等为代表的安全防控项目,等为代表的智能化项目，以国际机场、罗湖口岸和港桥等为代表的安全防控项目,等为代表的智能化项目，以国际机场、罗湖口岸和港桥等为代表的安全防控项目等为代表的智能化项目，以国际机场、罗湖口岸和港桥等为代表的安全防控项目,等为代表的智能化项目，以国际机场、罗湖口岸和港桥等为代表的安全防控项目,等为代表的智能化项目，以国际机场、罗湖口岸和港桥等为代表的安全防控项目等为代表的智能化项目，以国际机场、罗湖口岸和港桥等为代表的安全防控项目。",
+      "company_createtime": "2000-01-18"
+    },
+    {
+      "companynews_ID": 4,
+      "companynews_pic": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1594911964912&di=f4b26ee8f647ffa3da9430f6387c40d6&imgtype=0&src=http%3A%2F%2Fimg.mp.sohu.com%2Fupload%2F20170810%2Fd775d7ff82824504849995484db67e41_th.png",
+      "company_title": "最佳装修攻略",
+      "company_titlePic": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3989091906,1075748901&fm=26&gp=0.jpg",
+      "company_article": "承建项目以优质的质量和服务，赢得了广大客户高度赞誉,承建项目以优质的质量和服务，赢得了广大客户高度赞誉,承建项目以优质的质量和服务，赢得了广大客户高度赞誉,承建项目以优质的质量和服务，赢得了广大客户高度赞誉,承建项目以优质的质量和服务，赢得了广大客户高度赞誉,承建项目以优质的质量和服务，赢得了广大客户高度赞誉,承建项目以优质的质量和服务，赢得了广大客户高度赞誉。",
+      "company_createtime": "2000-01-18"
+    }
+  ],
+  "data": [
+    {
+      "type": "卫浴",
+      "id": 2001,
+      "data": [
+        {
+          "id": 2005,
+          "brand": "法恩莎卫浴",
+          "img": "http://dfs.yun300.cn/group1/M00/17/68/rBQBHF0Ui0aEGXNhAAAAAKb-QYs187.png"
+        },
+        {
+          "id": 2005,
+          "brand": "阿波罗卫浴",
+          "img": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1595521127599&di=751dec5fab26ca069d027eec0cf6f67a&imgtype=0&src=http%3A%2F%2Fwww.qiming888.com%2Fd%2Ffile%2FQQming%2Fqqqunmingchengdaquan%2F2019-07-05%2Fad10559334d4ea1b473610a4d10eb405.jpg"
+        },
+        {
+          "id": 2005,
+          "brand": "法恩莎卫浴",
+          "img": "http://dfs.yun300.cn/group1/M00/17/68/rBQBHF0Ui0aEGXNhAAAAAKb-QYs187.png"
+        },
+        {
+          "id": 2005,
+          "brand": "阿波罗卫浴",
+          "img": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1595521127599&di=751dec5fab26ca069d027eec0cf6f67a&imgtype=0&src=http%3A%2F%2Fwww.qiming888.com%2Fd%2Ffile%2FQQming%2Fqqqunmingchengdaquan%2F2019-07-05%2Fad10559334d4ea1b473610a4d10eb405.jpg"
+        }
+      ]
+    },
+    {
+      "type": "瓷砖",
+      "id": 2002,
+      "data": [
+        {
+          "id": 2005,
+          "brand": "冠珠瓷砖",
+          "img": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1595521127599&di=751dec5fab26ca069d027eec0cf6f67a&imgtype=0&src=http%3A%2F%2Fwww.qiming888.com%2Fd%2Ffile%2FQQming%2Fqqqunmingchengdaquan%2F2019-07-05%2Fad10559334d4ea1b473610a4d10eb405.jpg"
+        },
+        {
+          "id": 2005,
+          "brand": "东鹏瓷砖",
+          "img": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1595521127599&di=751dec5fab26ca069d027eec0cf6f67a&imgtype=0&src=http%3A%2F%2Fwww.qiming888.com%2Fd%2Ffile%2FQQming%2Fqqqunmingchengdaquan%2F2019-07-05%2Fad10559334d4ea1b473610a4d10eb405.jpg"
+        },
+        {
+          "id": 2005,
+          "brand": "冠珠瓷砖",
+          "img": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1595521127599&di=751dec5fab26ca069d027eec0cf6f67a&imgtype=0&src=http%3A%2F%2Fwww.qiming888.com%2Fd%2Ffile%2FQQming%2Fqqqunmingchengdaquan%2F2019-07-05%2Fad10559334d4ea1b473610a4d10eb405.jpg"
+        },
+        {
+          "id": 2005,
+          "brand": "东鹏瓷砖",
+          "img": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1595521127599&di=751dec5fab26ca069d027eec0cf6f67a&imgtype=0&src=http%3A%2F%2Fwww.qiming888.com%2Fd%2Ffile%2FQQming%2Fqqqunmingchengdaquan%2F2019-07-05%2Fad10559334d4ea1b473610a4d10eb405.jpg"
+        }
+      ]
+    },
+    {
+      "type": "家电",
+      "id": 2003,
+      "data": [
+        {
+          "id": 2005,
+          "brand": "方太厨具",
+          "img": "https://dss2.bdstatic.com/8_V1bjqh_Q23odCf/pacific/1916799634.png"
+        },
+        {
+          "id": 2005,
+          "brand": "海尔",
+          "img": "https://ecmb.bdimg.com/tam-ogel/4409aa8aa057a032b726672e1f44be31_121_121.jpg"
+        },
+        {
+          "id": 2005,
+          "brand": "方太厨具",
+          "img": "https://dss2.bdstatic.com/8_V1bjqh_Q23odCf/pacific/1916799634.png"
+        },
+        {
+          "id": 2005,
+          "brand": "海尔",
+          "img": "https://ecmb.bdimg.com/tam-ogel/4409aa8aa057a032b726672e1f44be31_121_121.jpg"
+        }
+      ]
+    },
+    {
+      "type": "家具",
+      "id": 2004,
+      "data": [
+        {
+          "id": 2005,
+          "brand": "圣华家具",
+          "img": "https://dss0.bdstatic.com/6Ox1bjeh1BF3odCf/it/u=649641403,3767336167&fm=74&app=80&f=JPEG&size=f121,90?sec=1880279984&t=b06103e1975fb9afb4b50e5ab661c6c2"
+        },
+        {
+          "id": 2005,
+          "brand": "宏发家具",
+          "img": "http://dfs.yun300.cn/group1/M00/17/68/rBQBHF0Ui0aEGXNhAAAAAKb-QYs187.png"
+        },
+        {
+          "id": 2005,
+          "brand": "圣华家具",
+          "img": "https://dss0.bdstatic.com/6Ox1bjeh1BF3odCf/it/u=649641403,3767336167&fm=74&app=80&f=JPEG&size=f121,90?sec=1880279984&t=b06103e1975fb9afb4b50e5ab661c6c2"
+        },
+        {
+          "id": 2005,
+          "brand": "宏发家具",
+          "img": "http://dfs.yun300.cn/group1/M00/17/68/rBQBHF0Ui0aEGXNhAAAAAKb-QYs187.png"
+        }
+      ]
+    }
+  ],
+  "rotationImg": [
+    {
+      "id": 2005,
+      "img": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2526202809,3625162431&fm=26&gp=0.jpg",
+      "url": "www.123.com"
+    },
+    {
+      "id": 2006,
+      "img": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2526202809,3625162431&fm=26&gp=0.jpg",
+      "url": "www.123.com"
+    }
+  ],
+  "data1": {
+    "id": 3001,
+    "name": "海尔",
+    "introduction": "公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介",
+    "logo": "http://dfs.yun300.cn/group1/M00/17/68/rBQBHF0Ui0aEGXNhAAAAAKb-QYs187.png",
+    "img": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2526202809,3625162431&fm=26&gp=0.jpg",
+    "commodity": [
+      {
+        "id": 3002,
+        "name": "西门子滚筒全自动洗衣机",
+        "img": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2124409935,724809925&fm=26&gp=0.jpg"
+      },
+      {
+        "id": 3003,
+        "name": "韩式田园公主床",
+        "img": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2526202809,3625162431&fm=26&gp=0.jpg"
+      },
+      {
+        "id": 3002,
+        "name": "西门子滚筒全自动洗衣机",
+        "img": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2124409935,724809925&fm=26&gp=0.jpg"
+      },
+      {
+        "id": 3003,
+        "name": "韩式田园公主床",
+        "img": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2526202809,3625162431&fm=26&gp=0.jpg"
+      },
+      {
+        "id": 3002,
+        "name": "西门子滚筒全自动洗衣机",
+        "img": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2124409935,724809925&fm=26&gp=0.jpg"
+      },
+      {
+        "id": 3003,
+        "name": "韩式田园公主床",
+        "img": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2526202809,3625162431&fm=26&gp=0.jpg"
+      },
+      {
+        "id": 3002,
+        "name": "西门子滚筒全自动洗衣机",
+        "img": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2124409935,724809925&fm=26&gp=0.jpg"
+      },
+      {
+        "id": 3003,
+        "name": "韩式田园公主床",
+        "img": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2526202809,3625162431&fm=26&gp=0.jpg"
+      },
+      {
+        "id": 3002,
+        "name": "西门子滚筒全自动洗衣机",
+        "img": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2124409935,724809925&fm=26&gp=0.jpg"
+      },
+      {
+        "id": 3003,
+        "name": "韩式田园公主床",
+        "img": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2526202809,3625162431&fm=26&gp=0.jpg"
+      }
+    ]
+  },
+  "homeDecoration": {
+    "id": 1,
+    "rotationImg": [
+      {
+        "id": 1001,
+        "img": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2526202809,3625162431&fm=26&gp=0.jpg",
+        "url": "www.123.com"
+      },
+      {
+        "id": 1002,
+        "img": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2526202809,3625162431&fm=26&gp=0.jpg",
+        "url": "www.123.com"
+      }
+    ],
+    "navigationTitle": [
+      {
+        "navMark": "家居风水",
+        "navTitle": "householdGeomantic"
+      },
+      {
+        "navMark": "设计知识",
+        "navTitle": "designKnowledge"
+      },
+      {
+        "navMark": "材料知识",
+        "navTitle": "knowledgeOfMaterial"
+      },
+      {
+        "navMark": "家装知识",
+        "navTitle": "homeImprovementStrategy"
+      }
+    ],
+    "householdGeomantic": [
+      {
+        "id": 2,
+        "picture": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1595339456098&di=82d2e073eb5abe646ad3927c8493f27a&imgtype=0&src=http%3A%2F%2Fpic.wodingche.com%2Fcarimg%2Faqstswucx.jpeg",
+        "title": "买房子风水要注意什么",
+        "Article": "文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容",
+        "mark": "家居风水",
+        "time": "2018-11-10",
+        "count": 888
+      },
+      {
+        "id": 3,
+        "picture": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1595339456098&di=82d2e073eb5abe646ad3927c8493f27a&imgtype=0&src=http%3A%2F%2Fpic.wodingche.com%2Fcarimg%2Faqstswucx.jpeg",
+        "title": "卧室风水布局",
+        "Article": "文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容",
+        "mark": "家居风水",
+        "time": "2019-10-02",
+        "count": 666
+      },
+      {
+        "id": 4,
+        "picture": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1595339456098&di=82d2e073eb5abe646ad3927c8493f27a&imgtype=0&src=http%3A%2F%2Fpic.wodingche.com%2Fcarimg%2Faqstswucx.jpeg",
+        "title": "装修前期准备工作",
+        "Article": "文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容",
+        "mark": "家居风水",
+        "time": "2018-06-05",
+        "count": 233
+      }
+    ],
+    "designKnowledge": [
+      {
+        "id": 5,
+        "picture": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1595339456098&di=82d2e073eb5abe646ad3927c8493f27a&imgtype=0&src=http%3A%2F%2Fpic.wodingche.com%2Fcarimg%2Faqstswucx.jpeg",
+        "title": "厨房装修十大误区",
+        "Article": "文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容",
+        "mark": "设计知识",
+        "time": "2018-11-10",
+        "count": 888
+      },
+      {
+        "id": 6,
+        "picture": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1595339456098&di=82d2e073eb5abe646ad3927c8493f27a&imgtype=0&src=http%3A%2F%2Fpic.wodingche.com%2Fcarimg%2Faqstswucx.jpeg",
+        "title": "墙面轻松大变身",
+        "Article": "文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容",
+        "mark": "设计知识",
+        "time": "2019-10-02",
+        "count": 666
+      }
+    ],
+    "knowledgeOfMaterial": [
+      {
+        "id": 7,
+        "picture": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1595339456098&di=82d2e073eb5abe646ad3927c8493f27a&imgtype=0&src=http%3A%2F%2Fpic.wodingche.com%2Fcarimg%2Faqstswucx.jpeg",
+        "title": "如何选购茶几",
+        "Article": "文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容",
+        "mark": "材料知识",
+        "time": "2018-11-10",
+        "count": 888
+      },
+      {
+        "id": 8,
+        "picture": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1595339456098&di=82d2e073eb5abe646ad3927c8493f27a&imgtype=0&src=http%3A%2F%2Fpic.wodingche.com%2Fcarimg%2Faqstswucx.jpeg",
+        "title": "厨房到底安装单水槽",
+        "Article": "文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容",
+        "mark": "材料知识",
+        "time": "2019-10-02",
+        "count": 666
+      }
+    ],
+    "homeImprovementStrategy": [
+      {
+        "id": 9,
+        "picture": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1595339456098&di=82d2e073eb5abe646ad3927c8493f27a&imgtype=0&src=http%3A%2F%2Fpic.wodingche.com%2Fcarimg%2Faqstswucx.jpeg",
+        "title": "卧室飘窗",
+        "Article": "文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容",
+        "mark": "家装知识",
+        "time": "2018-11-10",
+        "count": 888
+      },
+      {
+        "id": 10,
+        "picture": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1595339456098&di=82d2e073eb5abe646ad3927c8493f27a&imgtype=0&src=http%3A%2F%2Fpic.wodingche.com%2Fcarimg%2Faqstswucx.jpeg",
+        "title": "家装小酒柜",
+        "Article": "文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容",
+        "mark": "家装知识",
+        "time": "2019-10-02",
+        "count": 666
+      }
+    ]
+  }
+}

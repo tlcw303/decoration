@@ -1,0 +1,71 @@
+.back {
+  background: rgb(240, 238, 238);
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+.header_bottom {
+  margin-top: 45px;
+}
+
+.brandcenter {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.brandcenter > p {
+  width: 30%;
+  line-height: 50px;
+  font-size: 25px;
+  text-align: center;
+}
+.brandcenter > div {
+  width: 35%;
+  border-top: 1px solid gray;
+}
+.types {
+  width: 95%;
+
+  margin: 0 auto;
+  box-sizing: border-box;
+  background: white;
+  margin-bottom: 4%;
+  box-shadow: 0 0 7px rgba(120, 120, 122, 0.2);
+  border-radius: 3%;
+}
+
+.types h3 {
+  width: 100%;
+  text-align: center;
+  line-height: 30px;
+}
+.types > a > div {
+  width: 30%;
+  border: 1px solid rgb(209, 199, 245);
+
+  float: left;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+.types::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.types > a > div > p {
+  width: 100%;
+  text-align: center;
+  line-height: 40px;
+}
+.types > a > div > img {
+  width: 100%;
+  height: 50px;
+}
+.loop2_pic img{
+   width:100%;
+}

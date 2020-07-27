@@ -1,0 +1,112 @@
+.box {
+  .header{
+    position: sticky;
+    top: -1px;
+  }
+  .box_header {
+    width: 100%;
+    height: 36vh;
+    img {
+      width: 100%;
+    }
+    overflow: hidden;
+  }
+  .box_cent {
+    background: #eaeaea;
+    .box_cent_a{
+      height: 5vh;
+      display: flex;
+      text-align: center;
+      line-height: 5vh;
+      img {
+        flex: 1;
+        width: 40px;
+        height: 40px;
+        margin-top: 5px;
+        color: #ffad86;
+      }
+    }
+    .box_cent_b{
+      display: flex;
+      text-align: center;
+      span {
+        flex: 1;
+        font-size: 16px;
+        font-weight: 600;
+        flex-wrap: wrap;
+      }
+    }
+  }
+  .style_css {
+    color: #09cd9d;
+  }
+  div {
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: 36vh;
+    }
+    .indents {
+      font-size: 16px;
+      line-height: 20px;
+      text-indent: 4em;
+    }
+  }
+}
+.companynews_list {
+  .companynews_list_li {
+    height: 20vh;
+    display: flex;
+    border-top: 1px solid #4f4f4f;
+    border-bottom: 1px solid #4f4f4f;
+    .companynews_list_left {
+      padding-left: 15px;
+      line-height: 20vh;
+      img {
+        width: 120px;
+        height: 90px;
+        border-radius: 5px;
+      }
+    }
+    .companynews_list_right {
+      height: 20vh;
+      width: 36vh;
+      .company_list_r_a {
+        padding-top: 22px;
+        padding-left: 10px;
+        .company_list_r_b {
+          font-size: 18px;
+          color: #000;
+          font-weight: 800;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 1;
+          -webkit-box-orient: vertical;
+        }
+      }
+
+      .company_list_r_e {
+        font-size: 12px;
+        padding-top: 5px;
+        padding-left: 10px;
+        color:#8B8B8B;
+        font-weight: 300;
+      }
+      .company_list_r_c {
+        padding-top: 5px;
+        padding-left: 10px;
+        height: 49px;
+        overflow: hidden;
+        color: #999999;
+        .company_list_r_d {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+        }
+      }
+    }
+  }
+}

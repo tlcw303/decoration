@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+.box{
+    position: relative;
+    background: #e6e6e6;
+}
+
+.header{
+    height:45px;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    background: white;
+}
+
+.header span{
+    display: inline-block;
+    position: absolute;
+    top:0;
+    left:0;
+    font-size: 20px;
+    margin-left: 15px;
+    border:1px solid #e6e6e6;
+    border-radius: 50%;
+    display: block;
+    width:35px;
+    height:35px;
+    margin-top: 6px;
+    color:black;
+}
+
+.header p{
+    line-height: 45px;
+    color:black;
+}
+
+.pic{
+    text-align: center;
+    background: white;
+}
+
+.pic span{
+    display: inline-block;
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    margin-top: 10px;
+    background: #e6e6e6;
+}
+
+.pic img{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+}
+
+.pic p{
+    font-size: 16px;
+    margin-top: 10px;
+    padding-bottom: 25px;
+    color:black;
+}
+
+.list{
+    margin-top: 10px;
+    background: #e6e6e6;
+}
+
+.list li{
+    height:45px;
+    /* background: blue; */
+    position: relative;
+    font-size: 16px;
+    border-bottom: 1px solid #e6e6e6;
+    background: white;
+}
+
+.list li:nth-of-type(2n){
+    margin-bottom: 10px;
+}
+
+.list li p{
+    line-height: 45px;
+    /* text-align: center; */
+    margin-left: 40px;
+    color:black;
+}
+
+.list li span{
+    position: absolute;
+}
+
+.list li span:nth-of-type(1){
+    top:10px;
+    left:15px;
+    color:mediumseagreen;
+}
+
+.list li span:nth-of-type(2){
+    top:10px;
+    right:20px;
+    color:gray;
+}
+
+.footer{
+    text-align: center;
+    height:40px
+}

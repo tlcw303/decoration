@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+.box{
+    position: relative;
+    margin-top: 45px;
+}
+
+.header{
+    z-index: 2;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+}
+
+.content{
+    width:100%;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.content img{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+}
+
+
+.is_show{
+    display:none ;
+    
+}
+
+.content p:nth-of-type(1){
+    font-size: 20px;
+    padding:8px 0;
+    margin-bottom: 0;
+}
+
+.content>span{
+    padding:4px 0;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.case_work1{
+    display: flex;
+    justify-content: space-evenly;
+    height:40px;
+    line-height: 40px;
+    /* background: red; */
+    border-bottom:1px solid #e6e6e6;
+    text-align: center;
+}
+
+.case_work1 li{
+    width:50%;
+}
+.case_work1 li.active{
+   border-bottom:2px solid mediumseagreen;
+}
+
+.text{
+    text-indent: 2em;
+    line-height: 40px;
+    font-size: 16px;
+    color:red;
+}
+
+.pic_pic{
+    text-align: center;
+    background: white;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.pic_pic img{
+    width:96%;
+    border-radius: 20px;
+    margin-top:15px;
+    line-height: 0px;
+}
+
+.pic_pic p{
+    text-align: left;
+    text-indent: 1em;
+    line-height: 30px;
+    height:30px;
+    margin-bottom: 0;
+}
+
+.pic_pic p:nth-of-type(1){
+    width:77%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.pic_pic p:nth-of-type(2){
+    width:77%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+ .jihe span{
+    font-size: 12px;
+    margin-right: 10px;
+    color:gray;
+}
+
+.pic_pic b{
+    position: absolute;
+    top:30px;
+    right:30px;
+    font-weight: 100;
+    font-size: 10px;
+    color:white;
+    display: inline-block;
+    padding:5px 8px;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.pic_pic i{
+    font-style: normal;
+    display: inline-block;
+    padding:4px 6px;
+    background: mediumseagreen;
+    border-radius: 10px;
+    color:white;
+    position: absolute;
+    bottom:32px;
+    right:10px;
+    text-align: center;line-height: 18px;
+}
