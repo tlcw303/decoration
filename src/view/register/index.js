@@ -36,15 +36,16 @@ class Register extends Component {
 
     };
     to_register = (values) => {
-        for (var i in values) {
-            if (values[i] === undefined) {
-                values[i] = 0
-            }
-        }
+        // for (var i in values) {
+        //     if (values[i] === undefined) {
+        //         values[i] = 0
+        //     }
+        // }
         axios({
+            headers: { 'Content-Type': 'application/json;charset=utf-8' },
             method: 'post',
-            url: 'http://192.168.9.201:3001/user/register',
-            data: qs.stringify({
+            url: 'http://47.99.48.212/Decoration/user/register.action',
+            data: {
                 userNickname: values.userNickname,
                 userPassword: values.userPassword,
                 userName: values.userName,
@@ -52,27 +53,27 @@ class Register extends Component {
                 userAddress: values.userAddress,
                 userArea: values.userArea,
                 userPattern: JSON.stringify(this.state.userPattern),
-            })
-        }).then(res => {
-            console.log(res)
-            if (res.data.state) {
-                this.setState({
-                    alertSuccess: true
-                })
-                values.remember ? localStorage.setItem('user', JSON.stringify(res.data.userInfo)) : sessionStorage.setItem('user', JSON.stringify(res.data.userInfo))
-                setTimeout(() => {
-                    this.props.history.replace('/')
-                }, 2000)
-            } else {
-                this.setState({
-                    alertError: true
-                })
-                setTimeout(() => {
-                    this.setState({
-                        alertError: false
-                    })
-                }, 2000)
             }
+        }).then(res => {
+            console.log(res.data)
+            // if (res.data.state) {
+            //     this.setState({
+            //         alertSuccess: true
+            //     })
+            //     values.remember ? localStorage.setItem('user', JSON.stringify(res.data.userInfo)) : sessionStorage.setItem('user', JSON.stringify(res.data.userInfo))
+            //     setTimeout(() => {
+            //         this.props.history.replace('/')
+            //     }, 2000)
+            // } else {
+            //     this.setState({
+            //         alertError: true
+            //     })
+            //     setTimeout(() => {
+            //         this.setState({
+            //             alertError: false
+            //         })
+            //     }, 2000)
+            // }
         })
     }
     handleChange = (obj) => {

@@ -24,12 +24,13 @@ class Login extends Component {
     onFinish = values => {
         console.log(values)
         axios({
+            // headers: { 'Content-Type': 'application/json;charset=utf-8' },
             method: 'post',
-            url: 'http://192.168.9.201:3001/user/login',
-            data: qs.stringify({
-                username: values.username,
-                password: values.password
-            })
+            url: 'http://47.99.48.212/Decoration/user/login.action',
+            data: {
+                userNickname: values.username,
+                userPassword: values.password
+            }
         }).then(res => {
             if (res.data.state) {
                 this.setState({
@@ -50,6 +51,7 @@ class Login extends Component {
                     })
                 }, 2000)
             }
+            console.log(res.data)
         })
     };
     render() {
