@@ -1,9 +1,28 @@
 import React, { Component } from 'react';
 import appCss from '../../app.module.css';
 import "../../iconfont/iconfont.css"
-import { Link } from "react-router-dom"
+import { Link, withRouter } from "react-router-dom"
+import { Modal } from 'antd-mobile';
+
+const alert = Modal.alert;
 
 class Nav extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {}
+    }
+
+    goLogin() {
+        if (localStorage.getItem("user") || sessionStorage.getItem("user")) {
+            this.props.history.push("/reserve")
+        } else {
+            alert('您还没有登陆', '是否去登陆？', [
+                { text: '取消', onPress: () => { return } },
+                { text: '确认', onPress: () => (this.props.history.push("/login")) },
+            ])
+        }
+    }
+
     render() {
         return (
             <ul className={appCss.nav}>
@@ -31,17 +50,17 @@ class Nav extends Component {
                     <span className="iconfont icon-huodong-copy"></span>
                     <p>最新活动</p>
                 </Link> </li>
-                <li><Link to="/price">
+                <li onClick={() => this.goLogin()}>
                     <span className="iconfont icon-houtaizhuangxiu"></span>
                     <p>装修报价</p>
-                </Link> </li>
-                <li><Link to="/reserve">
+                </li>
+                <li onClick={() => this.goLogin()}>
                     <span className="iconfont icon-yuyuejianying"></span>
                     <p>一键预约</p>
-                </Link></li>
+                </li>
             </ul>
         );
     }
 }
 
-export default Nav;
+export default withRouter(Nav);

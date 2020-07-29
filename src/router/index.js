@@ -1,35 +1,146 @@
-import Index from "../view/Index"
-import Home from "../view/Home"
-// import Case from "../view/Case"
-
-import Site from "../view/Site"
-import My from "../view/My"
-
-import Introduction from "../view/Introduction"
-import Article from "../view/introduction/Article"
-
-// import BrandDetails from "../views/BrandDetails"
-import BrandDetails from "../view/BrandDetails";
-
-import Reserve from "../view/Reserve"
-import Activity from "../view/Activity"
-import Live from "../view/Live"
-import Price from "../view/Price"
-import Headlines from "../view/Headlines"
-import DesignTeam from "../view/DesignTeam"
-import ConstructionTeam from "../view/ConstructionTeam"
-import Construction from "../view/construction/Construction"
-import Material from "../view/Material"
-import Designer from "../view/designer/Designer"
-
-import Abbr from "../view/Abbr"
-import Find from "../view/designer/Find"
-import AbbrList from "../view/abbr/AbbrList"
-import Change from "../view/Change"
-
 // 导入案例页面
 import Loading from '../components/ReadyLoading'
 import loader from 'react-loadable'
+//3D详情页面，自带loading
+import AbbrList from "../view/abbr/AbbrList"
+
+// import Index from "../view/Index"
+const Index = loader({
+    loader: () => import("../view/Index"),
+    loading: Loading
+})
+
+// import Home from "../view/Home"
+const Home = loader({
+    loader: () => import("../view/Home"),
+    loading: Loading
+})
+
+// import Site from "../view/Site"
+const Site = loader({
+    loader: () => import("../view/Site"),
+    loading: Loading
+})
+
+// import My from "../view/My"
+const My = loader({
+    loader: () => import("../view/My"),
+    loading: Loading
+})
+
+// import Introduction from "../view/Introduction"
+const Introduction = loader({
+    loader: () => import("../view/Introduction"),
+    loading: Loading
+})
+
+// import Article from "../view/introduction/Article"
+const Article = loader({
+    loader: () => import("../view/introduction/Article"),
+    loading: Loading
+})
+
+// import BrandDetails from "../view/BrandDetails";
+const BrandDetails = loader({
+    loader: () => import("../view/BrandDetails"),
+    loading: Loading
+})
+
+// import Reserve from "../view/Reserve"
+const Reserve = loader({
+    loader: () => import("../view/Reserve"),
+    loading: Loading
+})
+
+// import Activity from "../view/Activity"
+const Activity = loader({
+    loader: () => import("../view/Activity"),
+    loading: Loading
+})
+
+// import Live from "../view/Live"
+const Live = loader({
+    loader: () => import("../view/Live"),
+    loading: Loading
+})
+
+// import Price from "../view/Price"
+const Price = loader({
+    loader: () => import("../view/Price"),
+    loading: Loading
+})
+
+// import Headlines from "../view/Headlines"
+const Headlines = loader({
+    loader: () => import("../view/Headlines"),
+    loading: Loading
+})
+
+// import DesignTeam from "../view/DesignTeam"
+const DesignTeam = loader({
+    loader: () => import("../view/DesignTeam"),
+    loading: Loading
+})
+
+// import ConstructionTeam from "../view/ConstructionTeam"
+const ConstructionTeam = loader({
+    loader: () => import("../view/ConstructionTeam"),
+    loading: Loading
+})
+
+// import Construction from "../view/construction/Construction"
+const Construction = loader({
+    loader: () => import("../view/construction/Construction"),
+    loading: Loading
+})
+
+// import Material from "../view/Material"
+const Material = loader({
+    loader: () => import("../view/Material"),
+    loading: Loading
+})
+
+// import Designer from "../view/designer/Designer"
+const Designer = loader({
+    loader: () => import("../view/designer/Designer"),
+    loading: Loading
+})
+
+// import Abbr from "../view/Abbr"
+const Abbr = loader({
+    loader: () => import("../view/Abbr"),
+    loading: Loading
+})
+
+// import Find from "../view/designer/Find"
+const Find = loader({
+    loader: () => import("../view/designer/Find"),
+    loading: Loading
+})
+
+
+// const AbbrList = loader({
+//     loader: () => import("../view/abbr/AbbrList"),
+//     loading: Loading
+// })
+
+// import Change from "../view/Change"
+const Change = loader({
+    loader: () => import("../view/Change"),
+    loading: Loading
+})
+
+// import Login from "../view/login"
+const Login = loader({
+    loader: () => import("../view/login"),
+    loading: Loading
+})
+// import Register from '../view/register'
+const Register = loader({
+    loader: () => import('../view/register'),
+    loading: Loading
+})
+
 const Case = loader({
     loader: () => import('../view/Case'),
     loading: Loading
@@ -41,6 +152,14 @@ const CaseDetail = loader({
 })
 
 export default [
+    {
+        path: '/login',
+        component: Login
+    },
+    {
+        path: '/register',
+        component: Register
+    },
     {
         path: '/introduction',
         component: Introduction

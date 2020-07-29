@@ -80,7 +80,7 @@ class Change extends Component {
                 <div className={Cg.content}>
                     <div className={Cg.head}>
                         <p>头像</p>
-                        <img src="/designTeam_imgs/设计师.jpg" alt="" />
+                        <img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=251289958,1860898046&fm=26&gp=0.jpg" alt="" />
                     </div>
                     <ul className={Cg.text}>
                         <li>

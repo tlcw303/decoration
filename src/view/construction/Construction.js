@@ -101,12 +101,7 @@ class Construction extends Component {
                                                             <p>
                                                                 <span>户型：{case_lists_last[0].case_hometype}</span>
                                                             </p>
-                                                            <p className={Dt.jihe}>
-                                                                <span>风格：{case_lists_last[0].case_style}</span>
-                                                                <span>面积：{case_lists_last[0].case_area}</span>
-                                                                <span>造价：{case_lists_last[0].case_cost}万元</span>
-                                                            </p>
-                                                            <Link to={"/find/" + list[id].id}><i>预约设计</i></Link>
+
                                                         </div>
                                                     </div>
                                                 </li>
@@ -134,7 +129,6 @@ class Construction extends Component {
                                                                 <span>面积：{case_lists_last[0].case_area}</span>
                                                                 <span>造价：{case_lists_last[0].case_cost}万元</span>
                                                             </p>
-                                                            <Link to={"/find/" + list[id].id}><i>预约设计</i></Link>
                                                         </div>
                                                     </div>
                                                 </li>

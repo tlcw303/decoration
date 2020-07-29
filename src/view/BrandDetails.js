@@ -31,7 +31,7 @@ class BrandDetails extends Component {
       <div>
         <NavBar
           className={Br.header}
-          mode="dark"
+          mode="light"
           icon={<Icon type="left" onClick={() => this.props.history.go(-1)} />}
           onLeftClick={() => console.log("onLeftClick")}
           rightContent={[]}

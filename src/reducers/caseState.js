@@ -285,9 +285,9 @@ export default (state = initState, action) => {
 
   switch (action.type) {
     case actionTypes.CASE_CHANGE:
-      // console.log(action.payload)
+
       if (action.payload.value.includes('不限')) {
-        return { ...state, list: state.list }
+        return { ...state, list: state.list_new }
       }
       if (action.payload.label === 'caseStyle') {
         state.list_new1 = state.list_new.filter(item => {
@@ -300,33 +300,33 @@ export default (state = initState, action) => {
         }
       }
       if (action.payload.label === 'housetyle') {
-        state.list_new = state.list_new.filter(item => {
+        state.list_new2 = state.list_new.filter(item => {
           return item.case_hometype === action.payload.value
         })
         return {
           ...state,
           isLoad: true,
-          list: state.list_new
+          list: state.list_new2
         }
       }
       if (action.payload.label === 'area') {
-        state.list_new = state.list_new.filter(item => {
+        state.list_new3 = state.list_new.filter(item => {
           return item.case_area === action.payload.value
         })
         return {
           ...state,
           isLoad: true,
-          list: state.list_new
+          list: state.list_new3
         }
       }
     case actionTypes.CASE_DETAIL_BY_ID:
-      state.list_new = state.list.filter(item => {
+      state.list_new4 = state.list_new.filter(item => {
         return item.case_ID === action.payload.id
       })
       return {
         ...state,
         isLoad: true,
-        list: state.list_new
+        list: state.list_new4
       }
 
     default:

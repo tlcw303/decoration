@@ -24,7 +24,7 @@ class Abbr extends Component {
 
     render() {
         let { list } = this.state
-        console.log(list, "render")
+        // console.log(list, "render")
         return (
             <div className={Ab.box}>
                 <div className={Ab.header}>

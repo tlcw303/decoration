@@ -3,6 +3,11 @@ import { withRouter } from "react-router-dom"
 import { NavBar, Icon } from 'antd-mobile';//antd-mobile组件
 import article from "../../css/article.module.scss"//scss样式
 
+import { Modal } from 'antd-mobile';
+
+const alert = Modal.alert;
+
+
 class Article extends Component {
     constructor(props, context) {
         super(props, context);
@@ -15,6 +20,21 @@ class Article extends Component {
             document.documentElement.scrollTop = 0
         })
         console.log(this.props)
+    }
+    goLogin() {
+        if (localStorage.getItem("user") || sessionStorage.getItem("user")) {
+            this.props.history.replace({
+                pathname: "/reserve",
+                state: {
+                    userinfoSource: 2,
+                }
+            })
+        } else {
+            alert('您还没有登陆', '是否去登陆？', [
+                { text: '取消', onPress: () => { return } },
+                { text: '确认', onPress: () => (this.props.history.push("/login")) },
+            ])
+        }
     }
     render() {
         let { title_news, createtime_news, article_news } = this.props.location.state
@@ -41,12 +61,7 @@ class Article extends Component {
                 </div>
                 <button
                     className={article.details_reservation}
-                    onClick={() => this.props.history.replace({
-                        pathname: "/reserve",
-                        state: {
-                            userinfoSource: 2,
-                        }
-                    })}
+                    onClick={() => this.goLogin()}
                 >一键预约</button>
             </div>
         )

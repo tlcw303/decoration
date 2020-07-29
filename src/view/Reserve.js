@@ -68,7 +68,7 @@ class Reserve extends Component {
                 <NavBar
                     mode="light"
                     icon={<Icon type="left" />}
-                    onLeftClick={() => this.props.history.replace("/")}
+                    onLeftClick={() => this.props.history.go(-1)}
                 >0元预约
               </NavBar>
                 <div className={reserve.header_img}>

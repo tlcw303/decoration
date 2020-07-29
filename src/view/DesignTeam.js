@@ -1,11 +1,10 @@
 import React, { Component } from 'react'
 import axios from "axios"
-import { NavBar, Icon } from 'antd-mobile';
+import { NavBar, Icon, Modal } from 'antd-mobile';
 import { withRouter } from "react-router-dom";
 import Dt from "../css/designTeam.module.css"
 
-
-
+const alert = Modal.alert;
 
 class DesignTeam extends Component {
     constructor(props) {
@@ -13,13 +12,8 @@ class DesignTeam extends Component {
         this.state = {
             list: {}
         }
-        // this.loadingToast()
     }
-    // loadingToast = () => {
-    //     Toast.loading('Loading...', 0.5, () => {
 
-    //     });
-    // }
     componentDidMount() {
         axios("http://localhost:3001/designerTable")
             .then(res => (
@@ -28,6 +22,20 @@ class DesignTeam extends Component {
                 })
             ))
 
+    }
+
+    goLogin = (e, id) => {
+        e.stopPropagation()
+        let { list } = this.state
+
+        if (localStorage.getItem("user") || sessionStorage.getItem("user")) {
+            this.props.history.push("/find/" + id)
+        } else {
+            alert('您还没有登陆', '是否去登陆？', [
+                { text: '取消', onPress: () => { return } },
+                { text: '确认', onPress: () => (this.props.history.push("/login")) },
+            ])
+        }
     }
 
     render() {
@@ -73,10 +81,7 @@ class DesignTeam extends Component {
                                             e.stopPropagation(),
                                             this.props.history.push("/designer/" + item.id)
                                         )} className={Dt.left}>查看详情</i>
-                                        <i onClick={(e) => (
-                                            e.stopPropagation(),
-                                            this.props.history.push("/order/" + item.id)
-                                        )} className={Dt.right}>设计预约</i>
+                                        <i onClick={(e) => this.goLogin(e, item.id)} className={Dt.right}>设计预约</i>
                                     </li>
                                 </ul>
                             </div>

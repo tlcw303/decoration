@@ -76,7 +76,7 @@ class Headlines extends Component {
             <div>
                 <NavBar
                     className={Hl.header}
-                    mode="dark"
+                    mode="light"
                     icon={<Icon type="left" onClick={() => this.props.history.go(-1)} />}
                     onLeftClick={() => console.log("onLeftClick")}
                     rightContent={[]}

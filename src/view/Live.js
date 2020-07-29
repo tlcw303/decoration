@@ -48,16 +48,13 @@ class Live extends Component {
         // console.log(obtain_height, "height")
 
     }
-    componentDidUpdate() {
-
-    }
     render() {
         let { data, steps, site_progress, obtain_h, progress_plan_new } = this.state;
         const Step = Steps.Step;
         steps = site_progress ? site_progress.map((s, i) => <Step key={i} title={s} />) : null;
         const tabs2 = [
             { title: '直播', sub: '1' },
-            { title: '團隊', sub: '2' },
+            { title: '团队', sub: '2' },
         ];
         return (
             <div className={Ta.live}>
@@ -75,7 +72,7 @@ class Live extends Component {
                             <p>{data.site_area} | {data.case_style}</p>
                             <p>地址 ： {data.site_address}</p>
                         </div>
-                        <div class={Ta.ccc}>
+                        <div className={Ta.ccc}>
                             <WingBlank mode={20} className={Ta.stepsExample}>
                                 <Steps current={data.progress_plan ? data.progress_plan.length - 1 : null} direction="horizontal" size="small">{steps}</Steps>
                                 <WhiteSpace />
@@ -140,7 +137,7 @@ class Live extends Component {
                 </main>
                 <footer className={Ta.footer}>
                     <span className="iconfont icon-shoucang"></span>
-                    <input type="button" value="一鍵預約" />
+                    <input type="button" value="一键预约" />
                 </footer>
             </div>
         )

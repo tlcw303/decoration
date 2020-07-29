@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import axios from "axios"
-import { NavBar, Icon } from 'antd-mobile';
-import { withRouter, Link } from "react-router-dom";
+import { NavBar, Icon, Modal } from 'antd-mobile';
+import { withRouter } from "react-router-dom";
 import Dt from "../../css/designer.module.css"
+
+const alert = Modal.alert;
 
 class Designer extends Component {
     constructor(props) {
@@ -30,24 +32,24 @@ class Designer extends Component {
             ))
 
     }
-    aaa = () => {
+    goLogin = () => {
         let { list } = this.state
         let { id } = this.props.match.params
-        this.props.history.push("/find/" + list[id].id)
-        // if (!localStorage.getItem("user") || !sessionStorage.getItem("user")) {
-        //     alert("11111")
-        // } else {
-        //     this.props.history.push("/find/" + list[id].id)
-        // }
+        // console.log(localStorage.getItem("user"))
+        if (localStorage.getItem("user") || sessionStorage.getItem("user")) {
+            this.props.history.push("/find/" + list[id].id)
+        } else {
+            alert('您还没有登陆', '是否去登陆？', [
+                { text: '取消', onPress: () => { return } },
+                { text: '确认', onPress: () => (this.props.history.push("/login")) },
+            ])
+        }
     }
 
     render() {
         let { list, case_list, index, case_lists } = this.state
         let { id } = this.props.match.params
-        // console.log(case_lists, "1111")
         let case_lists_last = case_lists.filter(item => item.case_id == id)
-        // console.log(case_lists_last[0], "render")
-        // console.log(this.props.match.params.id, "render")
         return (
             <div className={Dt.box}>
                 <div className={Dt.header}>
@@ -79,8 +81,8 @@ class Designer extends Component {
                                 </div>
 
                                 <div className={Dt.help}>
-                                    <span onClick={() => this.aaa()}>找TA设计<i>付费</i></span>
-                                    <span>装饰</span>
+                                    <span onClick={() => this.goLogin()}>找TA设计<i>付费</i></span>
+                                    {/* <span>装饰</span> */}
                                 </div>
                                 <ul className={Dt.collection}>
                                     <li>
@@ -139,7 +141,7 @@ class Designer extends Component {
                                                                 <span>面积：{case_lists_last[0].case_area}</span>
                                                                 <span>造价：{case_lists_last[0].case_cost}万元</span>
                                                             </p>
-                                                            <Link to={"/find/" + list[id].id}><i>预约设计</i></Link>
+                                                            <i onClick={() => this.goLogin()}>预约设计</i>
                                                         </div>
                                                     </div>
 

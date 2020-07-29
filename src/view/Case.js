@@ -40,7 +40,7 @@ class Case extends Component {
   render() {
     console.log(this.props)
     return (
-      <div style={{ background: "#f5f5f5" }}>
+      <div style={{ background: "#f5f5f5", height: "100vh" }}>
         <div style={{
           width: "100%",
           position: "fixed",

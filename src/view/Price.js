@@ -178,7 +178,7 @@ class Price extends Component {
       <div className={Pr.price}>
         <NavBar
           className={Pr.header}
-          mode="dark"
+          mode="light"
           icon={<Icon type="left" onClick={() => this.props.history.go(-1)} />}
           onLeftClick={() => console.log("onLeftClick")}
           rightContent={[]}

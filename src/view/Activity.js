@@ -5,6 +5,10 @@ import activity from "../css/activity.module.scss";//引入scss样式
 import "../css/activity.module.reset.css";//引入通用样式
 import "../iconfont/iconfont.css";//引入icon图标样式
 
+import { Modal } from 'antd-mobile';
+
+const alert = Modal.alert;
+
 class Activity extends Component {
     constructor(props, context) {
         super(props, context);
@@ -28,6 +32,24 @@ class Activity extends Component {
             index: num
         })
     }
+    goLogin() {
+        let { activity_list, index } = this.state
+        if (localStorage.getItem("user") || sessionStorage.getItem("user")) {
+            this.props.history.push({
+                pathname: "/reserve",
+                state: {
+                    userinfoSource: 4,
+                    activity_price: activity_list[index].activity_price
+                }
+            })
+        } else {
+            alert('您还没有登陆', '是否去登陆？', [
+                { text: '取消', onPress: () => { return } },
+                { text: '确认', onPress: () => (this.props.history.push("/login")) },
+            ])
+        }
+    }
+
     render() {
         let { activity_list, index } = this.state
         console.log(activity_list)
@@ -40,7 +62,7 @@ class Activity extends Component {
                         <NavBar
                             mode="light"
                             icon={<Icon type="left" />}
-                            onLeftClick={() => this.props.history.replace("/")}
+                            onLeftClick={() => this.props.history.go(-1)}
                             className={activity.header}
                         >{activity_list[index].activity_price}套餐</NavBar>
                         {/* 根据复制的index渲染上部分图片 */}
@@ -77,13 +99,7 @@ class Activity extends Component {
                             <span className={activity.indents}>&emsp;&emsp;{activity_list[index].activity_detail}</span>
                         </div>
                         <Button type="primary"
-                            onClick={() => this.props.history.replace({
-                                pathname: "/reserve",
-                                state: {
-                                    userinfoSource: 4,
-                                    activity_price: activity_list[index].activity_price
-                                }
-                            })}>一键预约</Button>
+                            onClick={() => this.goLogin()}>一键预约</Button>
                     </div>
                 ) : ""
                 }
